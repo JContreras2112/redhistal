@@ -1,0 +1,157 @@
+
+
+#cabecera{
+	background: #333333;
+	padding:10px;
+	text-align: center;
+	border-radius:5px;
+}
+	#cabecera h1{
+		font-family: 'Aclonica', serif;
+		color: #222;
+		text-shadow: 0px 1px 1px #4d4d4d;
+		text-transform:uppercase;
+	}
+
+
+/* Divs Contend */
+#contenedor{
+	background-color:#A9E2F3;
+	width:100%;
+	border-radius:10px;
+	margin:50px auto;
+}
+
+#listadoimagenes{
+	margin-top:20px;
+}
+#mensajevacio{
+	background: #084B8A url(../images/warning_32x32.png)no-repeat;
+	padding:10px;
+	color:#fff;
+	text-align: center;
+	width:300px;
+	border-radius:5px;
+	font-family: Arial;
+}
+/* //Divs Contend */
+
+
+/* Tabla de lista de archivos */
+.demoTable{
+	border-spacing:1px;
+	font-family:Verdana;
+	font-size:10px;
+	background-color:#C3E6FF;
+	color: red;
+	width:100px;
+	margin:auto;
+}
+
+.demoTable td, .demoTable tr, .demoTable th{
+	border-collapse: separate;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background:red;
+}
+
+ #caption {
+	background: skyblue;
+	padding:5px;
+	color: white;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.demoTable td, .demoTable th {
+	padding: 4px;
+}
+
+.demoTable thead th {
+	text-align: center;
+	background: #C3E6FF;
+	color: #0B173B;
+	border: 1px solid #C3E6FF;
+	text-transform:uppercase;
+}
+
+.demoTable tr:hover{
+	background:#C3E6FF;
+}
+
+.demoTable tbody tr {
+	background-color:#C3E6FF;
+	color: #0B173B;
+	text-align:left;
+}
+
+.demoTable tbody tr th {
+	background-color:#C3E6FF;
+	color: #2E2E2E;
+	text-align:left;
+}
+
+.demoTable tbody tr.odd {
+	background: #f9f9f9;
+	border-top:1px solid #FFF;
+}
+
+/*.demoTable tbody tr:hover {
+background: red;
+border-top:1px solid #FFF;
+}*/
+
+.demoTable tbody tr:hover{
+	background: #fff;
+	color:#000;
+}
+
+.demoTable tbody tr {
+	height:50px;
+	background: #FAFAFA;
+	border: 1px solid #FFF;
+}
+
+.demoTable tbody tr.odd td{
+	background: #f9f9f9;
+	border-top:1px solid #FFF;
+}
+
+.demoTable td a:link, .demoTable td a:visited {
+	color: #0B3861;
+	text-decoration: none;
+}
+
+.demoTable td a:hover {
+	color: #0B3861;
+	border-bottom:2px solid #8FD5FF;
+	text-decoration: none ;
+}
+
+.demoTable tfoot th, .demoTable tfoot td {
+	background-color:#fff; padding:10px;
+	text-align:center;
+	font-family:Georgia;
+	font-size:22px; font-weight:bold; font-style:italic;
+	border-bottom:3px solid #CCC;
+	border-top:1px solid #DFDFDF;
+}
+
+/* //Tabla de lista de archivos */
+
+.formulario-title{
+	background: #333333;
+	padding:5px;
+	color: #222;
+	text-align: center;
+	text-shadow: 0px 1px 1px #4d4d4d;
+	text-transform:uppercase;
+	border-radius:1px 1px 0px 0px;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+
+
